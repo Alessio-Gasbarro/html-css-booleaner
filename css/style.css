@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+main{ 
+    width: 90%;
+    margin: 0 auto
+}
+
 /* SEZIONE HEADER */
 header{
     background-image: url(../img/pattern.png);
@@ -18,9 +23,17 @@ header{
     width: 150px;
 }
 
+.p1{
+    padding-bottom: 15px;
+}
+
 .article-title{
     margin-top: 1%;
     margin-left: 5px;
+}
+
+.images{
+    padding-bottom: 15px;
 }
 
 .author{
@@ -32,7 +45,7 @@ header{
     font-size: 10px;
 }
 
-.black-small-text{
+.caption{
     font-size: 9px;
 }
 
@@ -47,26 +60,42 @@ table{
     border: none;
 }
 
-.lineablu{
+.list1{
+    margin-left: 16px;
+}
+
+.cell-1{
+    width: 25%;
+}
+
+
+.tableheader{
+    background-color: #4EA0FF;
+    color: white;
+}
+
+.linea-blu{
     color: white;
     background-color: #1DACDF;
 }
 
-.lineabianca{
+.linea-bianca{
     background-color: #B1E6F2;
 }
 
 /* SEZIONE FINALE */
-#img1{
+.img1{
     color: white;
     background-image: url(../img/monitor.jpg);
     width: 250px;
     height: 200px;
+    font-size: 26px;
 }
 
-#img2{
+.img2{
     color: white;
-    background-image: url(./img/graph.jpg);
+    background-image: url(../img/graph.jpg);
     width: 250px;
     height: 200px;
+    font-size: 26px;
 }
