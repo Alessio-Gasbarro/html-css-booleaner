@@ -8,7 +8,7 @@
 
 main{ 
     width: 90%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 /* SEZIONE HEADER */
@@ -27,6 +27,10 @@ header{
     padding-bottom: 15px;
 }
 
+.address{
+    margin-bottom: 15px;
+}
+
 .article-title{
     margin-top: 1%;
     margin-left: 5px;
@@ -42,7 +46,7 @@ header{
 
 .data{
     color: #A7A7A7;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .caption{
@@ -54,14 +58,16 @@ header{
     background-color: yellow;
 }
 
-/* ZONA TABELLA */
-table{
-    border-collapse: collapse;
-    border: none;
-}
-
 .list1{
     margin-left: 16px;
+    padding-bottom: 15px;
+}
+
+/* ZONA TABELLA */
+.table{
+    border-collapse: collapse;
+    border: none;
+    padding-bottom: 15px;
 }
 
 .cell-1{
@@ -70,20 +76,30 @@ table{
 
 
 .tableheader{
-    background-color: #4EA0FF;
+    background-color: #1DACDF;
     color: white;
 }
 
 .linea-blu{
-    color: white;
-    background-color: #1DACDF;
-}
-
-.linea-bianca{
+    color: black;
     background-color: #B1E6F2;
 }
 
+.linea-bianca{
+    background-color: white;
+}
+
 /* SEZIONE FINALE */
+.paragraph-3{
+    padding-top: 15px;
+    padding-bottom: 20px
+}
+
+.Interest{
+   color: gray;
+   padding-bottom: 10px
+}
+
 .img1{
     color: white;
     background-image: url(../img/monitor.jpg);
